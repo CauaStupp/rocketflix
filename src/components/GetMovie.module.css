@@ -1,0 +1,35 @@
+.movie {
+  display: flex;
+  max-width: 600px;
+  gap: 2rem;
+  margin: 1.875rem 0;
+}
+
+.movie img {
+  width: 170px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.movie .text h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.movie .text p {
+  font-size: 0.8rem;
+}
+
+
+@media (max-width: 600px) {
+  .movie {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .movie .text {
+    text-align: center;
+  }
+}

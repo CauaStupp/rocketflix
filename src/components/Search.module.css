@@ -1,0 +1,50 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search > img {
+  width: 90px;
+  margin-bottom: 0.625rem;
+}
+
+.search h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.search button {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  color: black;
+  cursor: pointer;
+  gap: 1rem;
+  font-weight: 700;
+  margin-bottom: 1.625rem;
+  transition: background-color 0.2s;
+  margin-top: 2rem;
+}
+
+.search button:hover, .search button:disabled {
+  background-color: #cacaca;
+}
+
+.search button > img {
+  width: 35px;
+}
+
+.search p {
+  font-size: 0.875rem;
+}
+
+
+
+@media (max-width: 600px) {
+  .search h1, .search p {
+    text-align: center;
+  }
+}
