@@ -47,7 +47,7 @@ const Search = () => {
       )}
 
       {loading ? (
-        <button onClick={updateMovie}>
+        <button>
           <img src={Logo} alt="Logo icon" disabled />
           Procurando...
         </button>
