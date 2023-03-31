@@ -15,7 +15,7 @@
 
 <h2> :framed_picture: Thumb</h2>
 
-<img src="" />
+<img src="./public/Thumb.png" />
 
 
 
